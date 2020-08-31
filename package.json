@@ -1,0 +1,42 @@
+{
+  "name": "fedrss-cli",
+  "version": "0.1.0",
+  "description": "搜索最新前端技术文章",
+  "main": "lib/index.js",
+  "bin": {
+    "fed": "bin/index.js",
+    "fedrss": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ChanceYu/fedrss-cli.git"
+  },
+  "keywords": [
+    "fedrss-cli",
+    "front-end-rss",
+    "front-end",
+    "rss"
+  ],
+  "bugs": {
+    "url": "https://github.com/ChanceYu/fedrss-cli/issues"
+  },
+  "homepage": "https://github.com/ChanceYu/fedrss-cli#readme",
+  "author": "ChanceYu <i.fish@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cliui": "^7.0.1",
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "download": "^8.0.0",
+    "fs-extra": "^9.0.1",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^7.3.3",
+    "inquirer-autocomplete-prompt": "^1.0.2",
+    "open": "^7.2.0",
+    "ora": "^5.0.0"
+  }
+}
