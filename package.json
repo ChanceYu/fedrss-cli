@@ -1,6 +1,6 @@
 {
   "name": "fedrss-cli",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "搜索最新前端技术文章",
   "main": "lib/index.js",
   "bin": {
@@ -38,5 +38,8 @@
     "inquirer-autocomplete-prompt": "^1.0.2",
     "open": "^7.2.0",
     "ora": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=11.7.0"
   }
 }
