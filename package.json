@@ -1,6 +1,6 @@
 {
   "name": "fedrss-cli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "搜索最新前端技术文章",
   "main": "lib/index.js",
   "bin": {
